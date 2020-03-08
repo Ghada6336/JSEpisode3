@@ -40,7 +40,10 @@ const toCelsius = function(temperatures) {
  *   that exceed the threshhold
  ***************************************/
 const hottestDays = function(temperatures, threshhold) {
+  
+
   return temperatures.filter(ft => ft > threshhold);
+  // approvedEmails = emails.filter(email => !email.endsWith('@hotmail.com'));
   // Your code here
 };
 
